@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+<title>Tikslus 360 examples</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/tikslus360.js"></script>
+<script type="text/javascript" src="js/rainbow.min.js"></script>
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/tikslus360.css" />
+<link rel="stylesheet" href="css/github.css" />
+<style>
+body{
+padding:20px;
+}
+</style>
+</head>
+<body>
+	<h1 class="main_heading">Tikslus 360</h1>
+                
+               
+		
+		<h4 class="heading">Examples</h4>
+		
+		<h2 class="medium_heading">Example 1 - auto rotate off </h2>
+		<p>HTML</P>
+		<PRE>
+		<code data-language="html">
+		<div id="view360">
+		<a href="#" class="autorotate">Auto rotate</a>
+		</div>
+		</code>
+		</PRE>
+		<p>Javascript</p>
+		<pre>
+		<code data-language="javascript">
+		
+		$(document).ready(function(){
+		$("#view360").tikslus360({imageDir:'examples/car',imageCount:36,imageExt:'jpg',canvasID:'mycar',canvasWidth:640,canvasHeight:480});
+		});
+	
+		</code>
+		</pre>
+		
+		<div id="view360">
+		<a href="#" class="autorotate">Auto rotate</a>
+		</div>
+		
+		
+		<script type="text/javascript" src="js/tikslus360.js"></script>
+		<link rel="stylesheet" href="css/tikslus360.css" />
+		<script language="javascript">
+		$(window).load(function(){
+		$("#view360").tikslus360({imageDir:'images',imageCount:36,imageExt:'jpg',canvasID:'mycar',canvasWidth:640,canvasHeight:480,autoRotate:false});
+		});
+		</script>
+		<p class="note">
+		Click and drag to zoom the image.
+		</p>
+		
+		
+		
+		<h2 class="medium_heading">Example 2 - auto rotate on </h2>
+		<p>HTML</P>
+		<PRE>
+		<code data-language="html">
+		<div id="view360_example1">
+		<a href="#" class="autorotate">Auto rotate</a>
+		</div>
+		</code>
+		</PRE>
+		<p>Javascript</p>
+		<pre>
+		<code data-language="javascript">
+		
+		$(document).ready(function(){
+		$("#view360_example1").tikslus360({imageDir:'examples/car',imageCount:36,imageExt:'jpg',canvasID:'canvas1',canvasWidth:640,canvasHeight:480,autoRotate:true});
+		});
+		
+		</code>
+		</pre>
+		
+		<div id="view360_example">
+		<a href="#" class="autorotate">Auto rotate</a>
+		</div>
+		
+		<script language="javascript">
+		$(window).load(function(){
+		$("#view360_example").tikslus360({imageDir:'images',imageCount:36,imageExt:'jpg',canvasID:'canvas1',canvasWidth:640,canvasHeight:480,autoRotate:true});
+		});
+		</script>
+                		
+
+</body>
+
+
+
+
+</html>

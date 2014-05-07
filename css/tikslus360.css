@@ -1,0 +1,13 @@
+.autorotate{
+display:block;
+padding:5px;
+background-color:#86C840;
+color:#fff;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+.demo{
+    font-size: 11px;
+margin: 20px;
+}
