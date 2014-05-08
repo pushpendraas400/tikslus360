@@ -1,0 +1,36 @@
+{
+  "name": "tikslus360",
+  "title": "Tikslus 360 degree image view ",
+  "version": "1.0.0",
+  "description": "Jquery Image 360 degree view with auto rotation.",
+  "homepage": "http://tikslus.com/plugins/free#tikslus360",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pushpendra10/tikslus360.git"
+  },
+  "keywords": [
+    "Image",
+    "jQuery",
+    "360",
+    "three-sixty-degree-view",
+    "auto-rotation",
+    "360-degree-view"
+  ],
+  "author": {
+    "name": "Pushpendra Singh Chouhan",
+    "email": "pushpendra.as400@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pushpendra10/tikslus360/blob/master/mit-license.txt"
+    }
+  ],
+  "bugs": "https://github.com/pushpendra10/tikslus360/issues",
+  "download": "http://tikslus.com/web/bundles/tikslustikslus/downloads/tikslus360.zip",
+  "demo" : "http://tikslus.com/tikslus360/demo",
+  "docs" : "http://tikslus.com/tikslus360/docs",
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}
