@@ -1,7 +1,7 @@
 {
   "name": "tikslus360",
   "title": "Tikslus 360 degree image view ",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jquery Image 360 degree view with auto rotation.",
   "homepage": "http://tikslus.com/plugins/free#tikslus360",
   "repository": {
