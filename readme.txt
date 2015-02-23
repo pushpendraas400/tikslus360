@@ -15,3 +15,5 @@ You can use Plugins folder directly in your projects.
 
 visit http://tikslus.com/tikslus360/demo for a demo.
 visit http://tikslus.com/tikslus360/docs for plugin documentation
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pushpendra10/tikslus360/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
